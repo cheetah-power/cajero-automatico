@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Gracias por visitar al Banco</title>
+  </head>
+  <body>
+    <nav>
+      <span>BIENVENIDO A NUESTRO BANCO!!!</span>
+    </nav>
+    <h2>Cajero Automático</h2>
+    <select id="cuentas">
+      <option value="0">Mali</option>
+      <option value="1">Gera</option>
+      <option value="2">Maui</option>
+    </select>
+    <button onclick="consultarSaldo()">Consultar Saldo</button>
+    <button onclick="ingresarMonto()">Ingresar Monto</button>
+    <button onclick="retirarMonto()">Retirar Monto</button>
+   
+    <p id="resultado"></p>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
